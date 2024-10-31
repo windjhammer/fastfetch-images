@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 if [ -f .env ]; then
   export $(grep -v '^#' .env | xargs)
